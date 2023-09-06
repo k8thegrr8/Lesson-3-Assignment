@@ -9,19 +9,19 @@
 
 */
     }
+    body {
+        color: #080705;
+        width: 600px;
+        padding: 25px;
+        border: #006992;
+        border-style: double;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: auto;
+    } 
     header {
         background-color: #C5C3C6;
         padding: 25px;
     }
-    body {
-    color: #080705;
-    width: 600px;
-    padding: 25px;
-    border: #006992;
-    border-style: double;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: auto;
-    }    
     h1 {
         color: #006992;
         font-weight: bold;
