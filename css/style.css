@@ -8,38 +8,54 @@
 #e9e9eb lightest grey
 
 */    
+/* Global
+-----------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*,*::before, *::after {
+    box-sizing: inherit;
+}
 body {
     color: #080705;
-    width: 600px;
-    padding: 25px;
-    border: #006992;
-    border-style: double;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: auto;
-
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0;
 }    
-h1 {
+    h1 {
         color: #006992;
         font-weight: bold;
+        font-family: 'Bevan', serif;
+        text-shadow: 3px 3px 3px #737272;
         font-size: 34px;
+        padding: 25px 0 0 0;
+        margin: 0;
     }
     h2 {
         color: #673C4F;
         font-weight: bold;
         font-size: 28px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
     }
     h3 {
+        color: #673C4F;
+        font-weight: bold;
+        font-size: 28px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+        text-shadow: 3px 3px 3px #C5C3C6; 
+    }
+    h4 {
         color: #737272;
         font-weight: bold;
-        font-size: 22px;        
-    }
-    header {
-        background-color: #C5C3C6;
-        padding: 25px;
+        font-size: 22px;
+        padding: 0;
+   
     }
     img {
         float: left;
-        padding: 0px 10px 10px 10px;
+        padding: 20px;
     }
     a {
         color:#006992;
@@ -51,12 +67,62 @@ h1 {
         background: #006992;
         color: #DCDCDD;
     }
-    .projects {
-        min-height: 250px;
-        padding: 25px;
+    .content-wrap {
+        width: 700px;
+        margin: 0 auto;
+        padding: 10px 0;
     }
 
-    .work {
-        background-color: #e9e9eb;
-        padding: 25px;
-    }
+/* Profile
+-----------------------------------------*/
+header {
+    background-color: #C5C3C6;
+}
+.header-center{
+    text-align: center;
+}
+/* Projects
+-----------------------------------------*/
+.projects {
+    min-height: 300px;
+    padding: 25px;
+}
+
+/* Work Experience
+-----------------------------------------*/
+.work {
+    background-color: #e9e9eb;
+    padding: 25px;
+}
+hr.new1 {
+    border-top: 1px dashed #006992;
+  }
+.job-item {
+display: grid;
+grid-template-columns: 1fr 2fr;
+column-gap: 20px;
+}
+/* Education
+-----------------------------------------*/
+
+
+/* Contact
+-----------------------------------------*/
+footer {
+    background-color: #C5C3C6;
+    padding: 25px;
+    text-align: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
+
+
+    
