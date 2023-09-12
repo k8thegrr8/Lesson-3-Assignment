@@ -45,6 +45,7 @@ body {
         font-size: 28px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
         text-shadow: 3px 3px 3px #C5C3C6; 
+        margin: 0;
     }
     h4 {
         color: #737272;
@@ -94,7 +95,7 @@ header {
 -----------------------------------------*/
 .work {
     background-color: #e9e9eb;
-    padding: 25px;
+    margin: 0;
 }
 hr.new1 {
     border-top: 1px dashed #006992;
