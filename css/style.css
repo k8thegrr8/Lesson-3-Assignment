@@ -75,7 +75,52 @@ body {
         padding: 10px 0;
     }
 
-/* Profile
+/* Nav
+-----------------------------------------*/
+ul {
+	list-style: none; /* remove bullets */
+}
+
+ul li {
+	position: relative;
+	display: inline-block; /* Display in one line */
+	background: #edecee; /* Change Background color of list items */
+	padding: 10px 20px; /* add space around text */
+	font: bold 14px/20px sans-serif;
+	cursor: pointer; /* Change mouse cursor to pointer */
+	border-radius: 10px;
+    margin-top: 5px;
+}
+ul li a {
+color: #006992;
+}
+ul li:hover {
+	background: #673C4F; /* change color on hover */
+}
+ul li:hover ul {
+	left: 0; /* bring back sub menus on screen */
+}
+ul li ul {
+	/* display: none; */ /* DON'T DO THIS! */
+	position: absolute;
+	left: -99999px;  /* place sub-menus off screen */
+	width: 150px;
+	top: 39px;
+	padding: 0;
+}
+ul li ul a {
+    color: #edecee;
+}
+ul li ul li {
+	display: block; /* display sub-menu as one large block */
+	background: #006992;
+}
+ul li ul li:hover {
+	background: #444343;
+	
+}
+    
+    /* Profile
 -----------------------------------------*/
 header {
     background-color: #C5C3C6;
@@ -121,11 +166,13 @@ footer {
     padding: 0;
     display: flex;
     justify-content: center;
+    background-color: #C5C3C6;
 }
 .contact-list a {
     padding: 15px;
     display: inline-block;
 }
+
 
 
     
