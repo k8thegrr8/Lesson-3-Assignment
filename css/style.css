@@ -157,7 +157,7 @@ column-gap: 20px;
 /* Contact
 -----------------------------------------*/
 footer {
-    background-color: #C5C3C6;
+    background-color: #edecee;
     padding: 25px;
     text-align: center;
 }
@@ -166,11 +166,15 @@ footer {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #C5C3C6;
+    background-color: #edecee;
 }
 .contact-list a {
     padding: 15px;
     display: inline-block;
+    background-color: #edecee;
+}
+.contact-list:hover {
+    background-color: #edecee;  
 }
 
 
